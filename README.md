@@ -1,14 +1,18 @@
 # USB Connection Logger
-This is a program that record USB device connection entries to your computer.
+This is a program that record USB device connection entries to your computer and outputs it to a log file.
 
 This can be used for investigations for logging if an external threat tried/has exfilitrated data or inputted a [malicious USB device](https://hakshop.com/products/usb-rubber-ducky-deluxe).
 
-## Install
+## Install and Running
 You will need to have python3 install along with the [libusb driver](https://libusb.info) for your operating system.
 
-Then
+First download the libraries
 ```
 pip3 install libusb1
+```
+Then run the program
+```
+python3 usbLogger.py
 ```
 ## Compiling
 If you want the program to run in the background without a the python console running, you will need to have pyinstaller installed.
