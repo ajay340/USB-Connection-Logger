@@ -1,9 +1,24 @@
 # USB Connection Logger
 This is a program that record USB device connection entries to your device.
 
-This can be used for investigations for logging if an external threat tried/has exfilitrated data or inputed a [malicious USB device](https://hakshop.com/products/usb-rubber-ducky-deluxe).
+This can be used for investigations for logging if an external threat tried/has exfilitrated data or inputted a [malicious USB device](https://hakshop.com/products/usb-rubber-ducky-deluxe).
 
-Example Log:
+## Install
+You will need to have python3 install along with the [libusb driver](https://libusb.info) for your operating system.
+
+Then
+```
+pip3 install libusb1
+```
+## Compiling
+If you want the program to run in the background without a the python console running, you will need to have pyinstaller installed.
+
+Then
+```
+pyinstaller usbLogger.py --onefile --no-window --noconsole
+```
+
+## Example Log:
 ```python
 2018-06-30 01:49:26: "Bus 020 Device 033: ID 154b:005b" has CONNECTED 
 2018-06-30 01:49:30: "Bus 020 Device 033: ID 154b:005b" has DISCONNECTED 
