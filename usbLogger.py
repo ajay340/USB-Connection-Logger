@@ -12,7 +12,7 @@ log_middle = log_first.__add__(log_date)
 log_name = log_middle.__add__(log_extension)
 
 def hotplug_callback(context, device, event):
-
+#Code used to extract the USB device and if it is connected or not
     print('%s: "%s" %s \n' % (
         str(datetime.now())[0:19],
         device,
