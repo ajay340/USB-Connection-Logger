@@ -1,4 +1,8 @@
 # USB Connection Logger
+<p align="center">
+    <img src="https://img.shields.io/badge/License-MIT-blue.svg" />
+    <img src="https://img.shields.io/badge/Made%20with-Python-yellow.svg" />
+</p>
 This is a program that record USB device connection entries to your computer and outputs it to a log file.
 
 This can be used for investigations like logging if an external threat tried/has exfilitrated data or inputted a [malicious USB device](https://hakshop.com/products/usb-rubber-ducky-deluxe).
