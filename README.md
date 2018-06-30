@@ -1,5 +1,5 @@
 # USB Connection Logger
-This is a program that record USB device connection entries to your device.
+This is a program that record USB device connection entries to your computer.
 
 This can be used for investigations for logging if an external threat tried/has exfilitrated data or inputted a [malicious USB device](https://hakshop.com/products/usb-rubber-ducky-deluxe).
 
