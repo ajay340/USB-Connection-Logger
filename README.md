@@ -5,7 +5,7 @@
 </p>
 This is a program that record USB device connection entries to your computer and outputs it to a log file.
 
-This can be used for investigations like logging if an external threat tried/has exfilitrated data or inputted a [malicious USB device](https://hakshop.com/products/usb-rubber-ducky-deluxe).
+This can be used for investigations like logging if an external threat tried/has exfiltrated data or inputted a [malicious USB device](https://hakshop.com/products/usb-rubber-ducky-deluxe).
 
 ## Install and Running
 You will need to have python3 install along with the [libusb driver](https://libusb.info) for your operating system.
