@@ -3,9 +3,14 @@
     <img src="https://img.shields.io/badge/License-MIT-blue.svg" />
     <img src="https://img.shields.io/badge/Made%20with-Python-yellow.svg" />
 </p>
+
+---
+
 This is a program that record entries of USB device connection to your computer and outputs it to a log file.
 
 This can be used for investigations like logging if an external threat tried/has exfiltrated data or inputted a [malicious USB device](https://hakshop.com/products/usb-rubber-ducky-deluxe).
+
+---
 
 ## Install and Running
 You will need to have python3 install along with the [libusb driver](https://libusb.info) for your operating system.
